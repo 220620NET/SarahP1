@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\BankApp.csproj",
-      "projectName": "BankApp",
-      "projectPath": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\BankApp.csproj",
+      "projectUniqueName": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\Models.csproj",
+      "projectName": "Models",
+      "projectPath": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\Models.csproj",
       "packagesPath": "C:\\Users\\slynn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\obj\\",
       "projectStyle": "PackageReference",

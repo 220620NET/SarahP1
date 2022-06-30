@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OZ/mZE3XdTCrHg7XDFLv38Ur1uH8MyAYzlftblD281TSmjiuATTnyoMn8NOUAMvq2G0Ffjb9tQTckNQK6BjhMg==",
+  "dgSpecHash": "Uxk7YtWPag7VvLvYo5RLJD/GfG4GTDBtW7H+weFwTdIvKiM5X6jej7lgl0NPQ3Y0UaGzM3dINxxBRfSUN0TOhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\BankApp.csproj",
+  "projectFilePath": "C:\\Users\\slynn\\Documents\\Revature\\p1\\BankApp\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
