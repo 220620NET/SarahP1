@@ -1,15 +1,21 @@
 namespace User;
 
 
-{
-    class UserProfile {
-        public string FirstName;
-        public string LastName;
-        public string UserName;
-        public string Password;
-        public int IdNumber;
-        public bool IsManager;
+
+    public class UserProfile 
+    {
+        private string FirstName;
+
+        private string LastName;
+        private string userName;
+        private string Password;
+        private int IdNumber;
+        //array position + 100
+        private bool IsManager;
+
+        private string UserName;
+
+
     }
     
 
-}

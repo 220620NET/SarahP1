@@ -19,14 +19,14 @@ Console.WriteLine("3.) Exit Program");
 switch (Console.ReadLine())
 {
     case "1":
-        Console.WriteLine("We will now create your user profile");
-    //UserProfile 1 = new UserProfile();
+      Console.WriteLine("We will generate a user profile and print it to console");
 
 
     break;
     case "2":
-      Console.WriteLine("Log in page");
-      //LogIn();
+      Console.Clear();
+      TicketInfo test = new TicketInfo(1, 14, "Jacob", "Hotel", 8623);
+      Console.WriteLine(test.ViewTicketInfo());
     break;
     case "3":
     break;
