@@ -1,0 +1,17 @@
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibraryServices.deps.json
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibraryServices.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibraryServices.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.csproj.AssemblyReference.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.AssemblyInfoInputs.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.AssemblyInfo.cs
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.csproj.CoreCompileInputs.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\refint\ClassLibraryServices.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ref\ClassLibraryServices.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibrary1.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibraryDAO.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibraryDAO.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\bin\Debug\net6.0\ClassLibrary1.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDataAccess\obj\Debug\net6.0\ClassLibraryServices.csproj.CopyComplete

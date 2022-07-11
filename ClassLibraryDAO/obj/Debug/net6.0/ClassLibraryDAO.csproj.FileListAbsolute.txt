@@ -1,0 +1,12 @@
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.csproj.AssemblyReference.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.AssemblyInfoInputs.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.AssemblyInfo.cs
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.csproj.CoreCompileInputs.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\bin\Debug\net6.0\ClassLibraryDAO.deps.json
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\bin\Debug\net6.0\ClassLibraryDAO.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\bin\Debug\net6.0\ClassLibraryDAO.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\refint\ClassLibraryDAO.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ClassLibraryDAO.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryDAO\obj\Debug\net6.0\ref\ClassLibraryDAO.dll
