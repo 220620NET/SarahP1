@@ -1,0 +1,1 @@
+﻿Server=tcp:mysqlserver-sr2.database.windows.net,1433;Initial Catalog=myTestDatabase;Persist Security Info=False;User ID=sqluser;Password=!ThisPass1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
