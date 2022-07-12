@@ -1,0 +1,12 @@
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\bin\Debug\net6.0\ClassLibrarymodels.deps.json
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\bin\Debug\net6.0\ClassLibrarymodels.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\bin\Debug\net6.0\ClassLibrarymodels.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.csproj.AssemblyReference.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.AssemblyInfoInputs.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.AssemblyInfo.cs
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.csproj.CoreCompileInputs.cache
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\refint\ClassLibrarymodels.dll
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ClassLibrarymodels.pdb
+C:\Users\slynn\Documents\Revature\vsp1\ClassLibraryModels\ClassLibraryModels\obj\Debug\net6.0\ref\ClassLibrarymodels.dll
