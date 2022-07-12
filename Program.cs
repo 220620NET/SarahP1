@@ -1,7 +1,8 @@
 ﻿
 using ClassLibraryDataAccess;
-using ClassLibrary1;
+using ClassLibraryModels;
 
+//test database entry. Will move to proper location.
 
 UserProfile user = new UserProfile();
 
