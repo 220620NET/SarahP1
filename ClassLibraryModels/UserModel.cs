@@ -8,41 +8,44 @@ namespace ClassLibraryModels
 {
     public class UserModel
     {
-        public int id { get; set; }
-        public string userName { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string password { get; set; }
-        public string isManager { get; set; }
 
-        public UserModel(string firstName, string lastName, string userName, string password)
+        // fields
+
+        int id;
+        string firstName;
+        string lastName;
+        string userName;
+        string password;
+        string isManager;
+
+        // constructors
+        public UserModel()
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.userName = userName;
-            this.password = password;
-    
 
         }
         public UserModel(int id, string firstName, string lastName, string userName, string password, string isManager)
         {
-            this.id = id;
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.userName = userName;
-            this.password = password;
-            this.isManager = isManager;
-
-
+            this.ID = id;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.UserName = userName;
+            this.Password = password;
+            this.IsManager = isManager;
         }
-        public UserModel(string firstName)
-        {
-            this.firstName = firstName;
-        }
+        // properties
+        public int ID { get; set; }
+        public string UserName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Password { get; set; }
+        public string IsManager { get; set; }
 
-        public override string ToString()
-        {
-            return "id: " + this.id + ", first name: " + this.firstName + " last name: " + this.lastName + " user name: " + this.userName + " password: " + this.password + " Manager: " + this.isManager;
-        }
     }
 }
+
+       // Methods
+
+        /*public override string ToString()
+        {
+            return "id: " + this.ID + ", first name: " + this.FirstName + " last name: " + this.lastName + " user name: " + this.userName + " password: " + this.password + " Manager: " + this.isManager;
+        }*/

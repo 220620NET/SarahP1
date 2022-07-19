@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yqBqh3hyGP7om0mP3OSqashb+T7njNm6VYseU/u3tlunHi7WNc5by7pPb+VBy/uMm9LC/AdD+Wir059X00Fk4g==",
+  "dgSpecHash": "eK5AOXBaMewszf3dHciHZW8moUavwj9IFscjqZTU7E+ziKqWyx3qixbSYtdOpySvAvWRF/ck6GYs7vFOMNn9Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryModels\\ClassLibraryModels\\ClassLibrarymodels.csproj",
+  "projectFilePath": "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryModels\\ClassLibraryModels\\ClassLibraryModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slynn\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\slynn\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
