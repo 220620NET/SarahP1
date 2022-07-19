@@ -7,7 +7,7 @@ using ClassLibraryModels;
 
 namespace ClassLibraryDAO
 {
-    /*class TicketRepository //: ITicketRepository
+    interface ITicketRepository
     {
         TicketModel GetTicket(int ID);
 
@@ -18,5 +18,5 @@ namespace ClassLibraryDAO
         void CreateTicket();
 
         void UpdateTicket();
-    }*/
+    }
 }

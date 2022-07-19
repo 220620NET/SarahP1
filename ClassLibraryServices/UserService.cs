@@ -10,20 +10,18 @@ namespace ClassLibraryServices
 {
     public class UserService
     {
-        private UserRepository userRepository = new UserRepository();
+        private readonly IUserRepository _repo;
+
+        public UserService(IUserRepository repo)
+        {
+            _repo = repo;
+        }
 
         public List<UserModel> GetAllUsers()
         {
-            return userRepository.GetAllUsers();
+            return _repo.GetAllUsers();
         }
-        /*GetByUsername()
-        {
 
-        }
-        GetByID()
-        {
-
-        }*/
 
     }
 }

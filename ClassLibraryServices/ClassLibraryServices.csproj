@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibraryDAO\ClassLibraryDAO.csproj" />
-    <ProjectReference Include="..\ClassLibraryModels\ClassLibraryModels\ClassLibrarymodels.csproj" />
+    <ProjectReference Include="..\ClassLibraryModels\ClassLibraryModels\ClassLibraryModels.csproj" />
   </ItemGroup>
 
 </Project>

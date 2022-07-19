@@ -666,7 +666,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ClassLibrarymodels": "1.0.0",
+          "ClassLibraryModels": "1.0.0",
           "Microsoft.Data.SqlClient": "4.1.0"
         },
         "compile": {
@@ -676,17 +676,17 @@
           "bin/placeholder/ClassLibraryDAO.dll": {}
         }
       },
-      "ClassLibrarymodels/1.0.0": {
+      "ClassLibraryModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Data.SqlClient": "4.1.0"
         },
         "compile": {
-          "bin/placeholder/ClassLibrarymodels.dll": {}
+          "bin/placeholder/ClassLibraryModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ClassLibrarymodels.dll": {}
+          "bin/placeholder/ClassLibraryModels.dll": {}
         }
       }
     }
@@ -2547,16 +2547,16 @@
       "path": "../ClassLibraryDAO/ClassLibraryDAO.csproj",
       "msbuildProject": "../ClassLibraryDAO/ClassLibraryDAO.csproj"
     },
-    "ClassLibrarymodels/1.0.0": {
+    "ClassLibraryModels/1.0.0": {
       "type": "project",
-      "path": "../ClassLibraryModels/ClassLibraryModels/ClassLibrarymodels.csproj",
-      "msbuildProject": "../ClassLibraryModels/ClassLibraryModels/ClassLibrarymodels.csproj"
+      "path": "../ClassLibraryModels/ClassLibraryModels/ClassLibraryModels.csproj",
+      "msbuildProject": "../ClassLibraryModels/ClassLibraryModels/ClassLibraryModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "ClassLibraryDAO >= 1.0.0",
-      "ClassLibrarymodels >= 1.0.0",
+      "ClassLibraryModels >= 1.0.0",
       "Microsoft.Data.SqlClient >= 4.1.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
@@ -2591,8 +2591,8 @@
             "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryDAO\\ClassLibraryDAO.csproj": {
               "projectPath": "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryDAO\\ClassLibraryDAO.csproj"
             },
-            "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryModels\\ClassLibraryModels\\ClassLibrarymodels.csproj": {
-              "projectPath": "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryModels\\ClassLibraryModels\\ClassLibrarymodels.csproj"
+            "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryModels\\ClassLibraryModels\\ClassLibraryModels.csproj": {
+              "projectPath": "C:\\Users\\slynn\\Documents\\Revature\\vsp1\\ClassLibraryModels\\ClassLibraryModels\\ClassLibraryModels.csproj"
             }
           }
         }

@@ -9,7 +9,7 @@
       "ClassLibraryServices/1.0.0": {
         "dependencies": {
           "ClassLibraryDAO": "1.0.0",
-          "ClassLibrarymodels": "1.0.0",
+          "ClassLibraryModels": "1.0.0",
           "Microsoft.Data.SqlClient": "4.1.0",
           "System.Data.SqlClient": "4.8.3"
         },
@@ -491,19 +491,19 @@
       },
       "ClassLibraryDAO/1.0.0": {
         "dependencies": {
-          "ClassLibrarymodels": "1.0.0",
+          "ClassLibraryModels": "1.0.0",
           "Microsoft.Data.SqlClient": "4.1.0"
         },
         "runtime": {
           "ClassLibraryDAO.dll": {}
         }
       },
-      "ClassLibrarymodels/1.0.0": {
+      "ClassLibraryModels/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "4.1.0"
         },
         "runtime": {
-          "ClassLibrarymodels.dll": {}
+          "ClassLibraryModels.dll": {}
         }
       }
     }
@@ -862,7 +862,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ClassLibrarymodels/1.0.0": {
+    "ClassLibraryModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

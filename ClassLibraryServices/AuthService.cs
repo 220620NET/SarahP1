@@ -10,8 +10,8 @@ using ClassLibraryDAO;
 namespace ClassLibraryServices;
 public class AuthService
 {
-    private readonly UserRepository _repo;
-    public AuthService(UserRepository repository)
+    private readonly IUserRepository _repo;
+    public AuthService(IUserRepository repository)
     {
         _repo = repository;
     }
