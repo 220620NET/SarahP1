@@ -22,6 +22,14 @@ namespace ClassLibraryServices
             return _repo.GetAllUsers();
         }
 
+        public UserModel GetUser(int id)
+        {
+            return _repo.GetUser(id);
+        }
 
+        public UserModel GetUserByUserName(string userName)
+        {
+            return _repo.GetUserByUserName(userName);
+        }
     }
 }

@@ -9,14 +9,14 @@ namespace ClassLibraryDAO
 {
     interface ITicketRepository
     {
-        TicketModel GetTicket(int ID);
+        //TicketModel GetTicket(int ID);
 
-        TicketModel GetTicket(string UserName);
+        //TicketModel GetTicket(string UserName);
 
-        TicketModel GetTicket(char Status);
+        //TicketModel GetTicket(char Status);
 
-        void CreateTicket();
+        //void CreateTicket();
 
-        void UpdateTicket();
+        //void UpdateTicket();
     }
 }

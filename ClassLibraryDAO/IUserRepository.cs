@@ -9,12 +9,12 @@ namespace ClassLibraryDAO
 {
    public interface IUserRepository
     {
-        List<UserModel> GetAllUsers();
+        public List<UserModel> GetAllUsers();
 
-        UserModel GetUser(int ID);
+        public UserModel GetUser(int ID);
 
-        UserModel GetUser(string userName);
+        public UserModel GetUserByUserName(string userName);
         
-        //UserModel CreateUser(UserModel user);
+        public bool CreateUser(UserModel newUser);  //AddPokeTrainer(PokeTrainer newTrainerToRegister
     }
 }

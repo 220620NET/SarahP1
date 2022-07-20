@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryServices
 {
-    internal class TicketService
+    public class TicketService
     {
         /*SubmitReimbursement()
         {

@@ -17,6 +17,10 @@ public class UserController
     }
     public UserModel GetUser(int id)
     {
-        return _service.GetUser();
+        return _service.GetUser(id);
+    }
+    public UserModel GetUserByUserName(string userName)
+    {
+        return _service.GetUserByUserName(userName);
     }
 }

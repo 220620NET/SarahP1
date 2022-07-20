@@ -16,6 +16,12 @@ public class AuthService
         _repo = repository;
     }
 
+    public bool CreateUser(UserModel newUser)
+    {
+        return _repo.CreateUser(newUser);
+        //you need some checks here
+    }
+
 }
     /*public class UserProfile
     {

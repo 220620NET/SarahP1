@@ -38,11 +38,11 @@ namespace ClassLibraryDAO
         }
         public UserModel GetUser(int id)
         {
-            UserModel foundUser;
+            
             SqlConnection conn = _connectionFactory.GetConnection();
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand("Select * From p1.users where id = @userID", conn);
+            SqlCommand cmd = new SqlCommand("Select * From p1.users where userID = @userID", conn);
 
             cmd.Parameters.AddWithValue("@userID", id);
 
@@ -66,11 +66,11 @@ namespace ClassLibraryDAO
 
         }
 
-        public UserModel GetUser(string userName)
+        public UserModel GetUserByUserName(string userName)
         {
 
-            UserModel foundUser;
-            SqlConnection conn = _connectionFactory.GetConnection();
+            
+            using SqlConnection conn = _connectionFactory.GetConnection();
             conn.Open();
 
             SqlCommand cmd = new SqlCommand("Select * From p1.users where userName = @userName", conn);
@@ -79,7 +79,7 @@ namespace ClassLibraryDAO
 
             SqlDataReader reader = cmd.ExecuteReader();
 
-            while (reader.Read())
+            while(reader.Read())
             {
                 return new UserModel
                 {
@@ -97,26 +97,35 @@ namespace ClassLibraryDAO
         }
 
 
-        public bool CreateUser(UserModel users)
+        public bool CreateUser(UserModel newUser)
         {
 
             SqlConnection conn = _connectionFactory.GetConnection();
 
+            SqlCommand cmd = new SqlCommand("insert into p1.users(firstName, lastName, userName, password, isManager) values(@firstName, @lastName, @userName, @password, @isManager);", conn);
+
+
+            cmd.Parameters.AddWithValue("@firstName", newUser.FirstName);
+            cmd.Parameters.AddWithValue("@lastName", newUser.LastName);
+            cmd.Parameters.AddWithValue("@userName", newUser.UserName);
+            cmd.Parameters.AddWithValue("@password", newUser.Password);
+            cmd.Parameters.AddWithValue("@isManager", newUser.IsManager);
+            
+
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand("insert into p1.users(firstName, lastName, userName, password) values(@firstName, @lastName, @userName, @password);", conn);
-            SqlDataReader reader = cmd.ExecuteReader();
+            int rowsAffected = cmd.ExecuteNonQuery();
 
-
-            cmd.Parameters.AddWithValue("@firstName", users.FirstName);
-            cmd.Parameters.AddWithValue("@lastName", users.LastName);
-            cmd.Parameters.AddWithValue("@userName", users.UserName);
-            cmd.Parameters.AddWithValue("@password", users.Password);
-
-            reader.Close();
             conn.Close();
-            return false;
 
+            if (rowsAffected != 0)
+                {
+                    return true;
+                }
+            else
+            {
+                return false;
+            }
 
         }
 
