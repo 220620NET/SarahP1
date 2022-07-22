@@ -22,7 +22,7 @@ namespace ClassLibraryServices
             return _repo.GetAllUsers();
         }
 
-        public UserModel GetUser(int id)
+        public UserModel GetUser(int id)             
         {
             return _repo.GetUser(id);
         }
