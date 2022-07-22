@@ -16,6 +16,12 @@ namespace WebAPI.Controllers
             _service.CreateUser(newUser);
             return Results.Created("/user/register", newUser);
         }
+
+        public IResult Login(UserModel loginUser)
+        {
+            _service.LogIn(loginUser);
+            return Results.Ok(_service.LogIn(loginUser));
+        }
     }
 
 }

@@ -7,16 +7,17 @@ using ClassLibraryModels;
 
 namespace ClassLibraryDAO
 {
-    interface ITicketRepository
+    public interface ITicketRepository
     {
-        //TicketModel GetTicket(int ID);
+        public bool CreateTicket(TicketModel newTicket);
 
-        //TicketModel GetTicket(string UserName);
+        public TicketModel GetTicketByTicketNumber(int ticketNumber);
 
-        //TicketModel GetTicket(char Status);
+        public List<TicketModel> GetTicketByUserID(int user_fk);
 
-        //void CreateTicket();
+        public List<TicketModel> GetTicketByStatus(string Status);
 
-        //void UpdateTicket();
+        public bool UpdateTicket(TicketModel update);
+        public List<TicketModel> GetAllTickets();
     }
 }
